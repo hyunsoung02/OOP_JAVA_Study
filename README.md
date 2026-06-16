@@ -12,9 +12,7 @@
 | 2주차 | 클래스와 객체 (Class & Object) | [실습 코드 이동](./Practice/Week02/Main.java) | ✅ 완료 |
 | 3주차 | 캡슐화 (Encapsulation) | [과제 소스 보기](./Assignments/Assignment1/) | ✅ 완료 |
 
-:---: : 가운데 정렬
 
----: : 오른쪽 정렬
 
 **글자를 굵게 강조할 때 (볼드)**
 *글자를 기울이고 싶을 때 (이탤릭)*
