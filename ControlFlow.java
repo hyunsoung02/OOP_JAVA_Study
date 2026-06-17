@@ -1,4 +1,4 @@
-public class ControlFlowExam {
+public class Test1 {
     public static void main(String[] args) {
         
         // if조건문은 무조건 true 또는 false의 결과가 도출되어야 한다. 
