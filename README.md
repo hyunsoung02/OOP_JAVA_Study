@@ -179,7 +179,7 @@ if문 보다 switch문이 더 간결하고 효율적이다.
 
 보내주신 제어문의 특징을 하나의 비즈니스 시나리오(창고 재고 관리 시스템) 코드로 구현하여 검증했습니다.
 
-* **소스 코드 파일:** [ControlFlowExam.java](./OOP_JAVA_Study/ControlFlowExam.java)
+* **소스 코드 파일:** [ControlFlowExam.java](.OOP_JAVA_Study/ControlFlowExam.java)
 
 
 
