@@ -175,9 +175,9 @@ if문 보다 switch문이 더 간결하고 효율적이다.
   반복문 앞에 이름을 붙이고, 그이름을 break, continue와 같이 사용함으로써 둘 이상의 반복문을 벗어나거나 반복을 건너뛰는 것이 가능한다.
   
 
-| 구현한 핵심 기능 | 관련 소스 코드 링크 |
+| 기능 | 관련 소스 코드 링크 |
 | :--- | :--- |
-| **제어문 특징 검증** | [ControlFlow.java](./ControlFlow.java) ✅ |
+| **제어문 및 반복문 예제** | [ControlFlow.java](./ControlFlow.java) ✅ |
 
 
 
