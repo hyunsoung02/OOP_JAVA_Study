@@ -21,7 +21,7 @@ class Student {
         return id == student.id && Objects.equals(name, student.name); //이름과 학번이 동일한지 비교 ( And연산비교 )  
     }
 
-    // [중요] equals를 바꿨다면 hashCode도 세트로 바꾼다. 그래야 컬렉션(Set/Map)이 인지함
+    // [중요] equals를 바꿨다면 hashCode도 세트로 바꿈 그래야 컬렉션(Set/Map)이 인지함
     @Override
     public int hashCode() { // hashCode():  데이터값을 빠르게 분류해주는 '주소록 번호'같은 것  
         return Objects.hash(name, id); // 이름과 학번이 같으면 무조건 똑같은 숫자가 나옴
@@ -42,7 +42,7 @@ public class TEST2 {
         set.add(s1);
         set.add(s2); // 내부적으로 hashCode()와 equals()를 호출해 중복인지 판별함
 
-        // 오버라이딩이 성공했다면 중복이 제거되어 Set의 크기는 1이 되어야 합니다.
+        // 오버라이딩이 성공했다면 중복이 제거되어 Set의 크기는 1이 되어야 함.
         System.out.println("👥 저장된 총 학생 수: " + set.size() + "명 (1명이면 중복 제거 성공!)");
     }	
 
